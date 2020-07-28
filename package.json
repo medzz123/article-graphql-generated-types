@@ -6,12 +6,13 @@
   "author": "Mahedi Hasan <mahedi.hs1997@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "dotenv nodemon",
+    "start": "nodemon",
     "generate": "graphql-codegen"
   },
   "dependencies": {
     "apollo-server": "^2.16.1",
     "graphql": "^15.3.0",
+    "pg": "^8.3.0",
     "sequelize": "^6.3.3"
   },
   "devDependencies": {

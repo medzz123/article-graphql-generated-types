@@ -1,7 +1,7 @@
-import { Sequelize } from 'sequelize';
+import { Sequelize } from "sequelize";
 
-const sequelize: Sequelize = new Sequelize('dbName', 'username', 'password', {
-  dialect: 'postgres',
+const sequelize: Sequelize = new Sequelize("donkey", "mahedi", "postgres", {
+  dialect: "postgres",
 });
 
 export default sequelize;
