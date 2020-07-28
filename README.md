@@ -1,0 +1,1 @@
+# article-graphql-generated-types
