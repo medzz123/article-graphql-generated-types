@@ -1,0 +1,12 @@
+schema:
+  - './src/schema.ts'
+generates:
+  ./src/typings/generated.ts:
+    config:
+      contextType: ./types#Context
+      mappers:
+        Customer: ./types#CustomerModel
+        Vehicle: ./types#VehicleModel
+    plugins:
+      - typescript
+      - typescript-resolvers
